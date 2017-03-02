@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB43B4911DED47810074BC98 /* SelectACustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43B4901DED47810074BC98 /* SelectACustomerViewController.swift */; };
+		DB43B4931DEE22BB0074BC98 /* waitForCustomerToSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43B4921DEE22BB0074BC98 /* waitForCustomerToSelectViewController.swift */; };
+		DB75005D1DB663E500B1CF52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75005C1DB663E500B1CF52 /* AppDelegate.swift */; };
+		DB75005F1DB663E500B1CF52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75005E1DB663E500B1CF52 /* ViewController.swift */; };
+		DB7500641DB663E500B1CF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7500631DB663E500B1CF52 /* Assets.xcassets */; };
+		DB7500671DB663E500B1CF52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7500651DB663E500B1CF52 /* LaunchScreen.storyboard */; };
+		DB7500731DB668FC00B1CF52 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7500721DB668FC00B1CF52 /* MapKit.framework */; };
+		DB7500751DB669C200B1CF52 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB7500741DB669C200B1CF52 /* Info.plist */; };
+		DB7500771DB669FF00B1CF52 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7500761DB669FF00B1CF52 /* CoreLocation.framework */; };
+		DB7500791DB6AA2F00B1CF52 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7500781DB6AA2F00B1CF52 /* LocationSearchTable.swift */; };
+		DB95A1CE1DEB4037000A5C42 /* CustomerMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95A1CD1DEB4037000A5C42 /* CustomerMapViewController.swift */; };
+		DB95A1D01DEB4372000A5C42 /* CustomerLocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95A1CF1DEB4372000A5C42 /* CustomerLocationSearchTable.swift */; };
+		DB9F8F211DEB9E6E00533BAB /* WaitForDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F8F201DEB9E6E00533BAB /* WaitForDriverViewController.swift */; };
+		DB9F8F241DEBA26F00533BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9F8F221DEBA26F00533BAB /* Main.storyboard */; };
+		DBDD769D1DEA6C56007715BA /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD76991DEA6C56007715BA /* ItemsViewController.swift */; };
+		DBDD769E1DEA6C56007715BA /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD769A1DEA6C56007715BA /* ItemStore.swift */; };
+		DBDD769F1DEA6C56007715BA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD769B1DEA6C56007715BA /* Item.swift */; };
+		DBDD76A01DEA6C56007715BA /* DriverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD769C1DEA6C56007715BA /* DriverCell.swift */; };
+		DBDD76A21DEA7232007715BA /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD76A11DEA7232007715BA /* CustomerCell.swift */; };
+		DBDD76A41DEA7241007715BA /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD76A31DEA7241007715BA /* Customer.swift */; };
+		DBDD76A61DEA724D007715BA /* CustomerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD76A51DEA724D007715BA /* CustomerStore.swift */; };
+		DBDD76A81DEA7258007715BA /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD76A71DEA7258007715BA /* CustomerViewController.swift */; };
+		DBDD9DEF1DE528DB00C3B398 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD9DEE1DE528DB00C3B398 /* HomeViewController.swift */; };
+		DBDD9DF31DE53B2A00C3B398 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD9DF21DE53B2A00C3B398 /* LoginViewController.swift */; };
+		DBDD9DF51DE53B4600C3B398 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDD9DF41DE53B4600C3B398 /* RegisterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB43B4901DED47810074BC98 /* SelectACustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectACustomerViewController.swift; sourceTree = "<group>"; };
+		DB43B4921DEE22BB0074BC98 /* waitForCustomerToSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = waitForCustomerToSelectViewController.swift; sourceTree = "<group>"; };
+		DB7500591DB663E500B1CF52 /* 'U'Beer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "'U'Beer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB75005C1DB663E500B1CF52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB75005E1DB663E500B1CF52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB7500631DB663E500B1CF52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB7500661DB663E500B1CF52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB7500721DB668FC00B1CF52 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DB7500741DB669C200B1CF52 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7500761DB669FF00B1CF52 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DB7500781DB6AA2F00B1CF52 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		DB95A1CD1DEB4037000A5C42 /* CustomerMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerMapViewController.swift; sourceTree = "<group>"; };
+		DB95A1CF1DEB4372000A5C42 /* CustomerLocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerLocationSearchTable.swift; sourceTree = "<group>"; };
+		DB9F8F201DEB9E6E00533BAB /* WaitForDriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitForDriverViewController.swift; sourceTree = "<group>"; };
+		DB9F8F231DEBA26F00533BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBDD76991DEA6C56007715BA /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		DBDD769A1DEA6C56007715BA /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		DBDD769B1DEA6C56007715BA /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DBDD769C1DEA6C56007715BA /* DriverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverCell.swift; sourceTree = "<group>"; };
+		DBDD76A11DEA7232007715BA /* CustomerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerCell.swift; sourceTree = "<group>"; };
+		DBDD76A31DEA7241007715BA /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		DBDD76A51DEA724D007715BA /* CustomerStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerStore.swift; sourceTree = "<group>"; };
+		DBDD76A71DEA7258007715BA /* CustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		DBDD9DEE1DE528DB00C3B398 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DBDD9DF21DE53B2A00C3B398 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DBDD9DF41DE53B4600C3B398 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB7500561DB663E500B1CF52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7500771DB669FF00B1CF52 /* CoreLocation.framework in Frameworks */,
+				DB7500731DB668FC00B1CF52 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7500501DB663E500B1CF52 = {
+			isa = PBXGroup;
+			children = (
+				DB7500761DB669FF00B1CF52 /* CoreLocation.framework */,
+				DB7500721DB668FC00B1CF52 /* MapKit.framework */,
+				DB75005B1DB663E500B1CF52 /* Maps */,
+				DB75005A1DB663E500B1CF52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB75005A1DB663E500B1CF52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB7500591DB663E500B1CF52 /* 'U'Beer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB75005B1DB663E500B1CF52 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				DBDD76991DEA6C56007715BA /* ItemsViewController.swift */,
+				DBDD769A1DEA6C56007715BA /* ItemStore.swift */,
+				DBDD769B1DEA6C56007715BA /* Item.swift */,
+				DBDD769C1DEA6C56007715BA /* DriverCell.swift */,
+				DB75005C1DB663E500B1CF52 /* AppDelegate.swift */,
+				DBDD76A11DEA7232007715BA /* CustomerCell.swift */,
+				DB9F8F221DEBA26F00533BAB /* Main.storyboard */,
+				DB43B4921DEE22BB0074BC98 /* waitForCustomerToSelectViewController.swift */,
+				DB9F8F201DEB9E6E00533BAB /* WaitForDriverViewController.swift */,
+				DBDD76A31DEA7241007715BA /* Customer.swift */,
+				DBDD76A51DEA724D007715BA /* CustomerStore.swift */,
+				DBDD76A71DEA7258007715BA /* CustomerViewController.swift */,
+				DB75005E1DB663E500B1CF52 /* ViewController.swift */,
+				DB43B4901DED47810074BC98 /* SelectACustomerViewController.swift */,
+				DB95A1CD1DEB4037000A5C42 /* CustomerMapViewController.swift */,
+				DBDD9DF41DE53B4600C3B398 /* RegisterViewController.swift */,
+				DBDD9DEE1DE528DB00C3B398 /* HomeViewController.swift */,
+				DB7500781DB6AA2F00B1CF52 /* LocationSearchTable.swift */,
+				DB95A1CF1DEB4372000A5C42 /* CustomerLocationSearchTable.swift */,
+				DBDD9DF21DE53B2A00C3B398 /* LoginViewController.swift */,
+				DB7500631DB663E500B1CF52 /* Assets.xcassets */,
+				DB7500651DB663E500B1CF52 /* LaunchScreen.storyboard */,
+				DB7500741DB669C200B1CF52 /* Info.plist */,
+				DBDD9DED1DD8D5FC00C3B398 /* Images */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		DBDD9DED1DD8D5FC00C3B398 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB7500581DB663E500B1CF52 /* 'U'Beer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB75006B1DB663E500B1CF52 /* Build configuration list for PBXNativeTarget "'U'Beer" */;
+			buildPhases = (
+				DB7500551DB663E500B1CF52 /* Sources */,
+				DB7500561DB663E500B1CF52 /* Frameworks */,
+				DB7500571DB663E500B1CF52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "'U'Beer";
+			productName = Maps;
+			productReference = DB7500591DB663E500B1CF52 /* 'U'Beer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7500511DB663E500B1CF52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Syracuse University";
+				TargetAttributes = {
+					DB7500581DB663E500B1CF52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DB7500541DB663E500B1CF52 /* Build configuration list for PBXProject "Maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB7500501DB663E500B1CF52;
+			productRefGroup = DB75005A1DB663E500B1CF52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB7500581DB663E500B1CF52 /* 'U'Beer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB7500571DB663E500B1CF52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7500751DB669C200B1CF52 /* Info.plist in Resources */,
+				DB7500671DB663E500B1CF52 /* LaunchScreen.storyboard in Resources */,
+				DB9F8F241DEBA26F00533BAB /* Main.storyboard in Resources */,
+				DB7500641DB663E500B1CF52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB7500551DB663E500B1CF52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7500791DB6AA2F00B1CF52 /* LocationSearchTable.swift in Sources */,
+				DBDD769F1DEA6C56007715BA /* Item.swift in Sources */,
+				DB75005F1DB663E500B1CF52 /* ViewController.swift in Sources */,
+				DBDD76A41DEA7241007715BA /* Customer.swift in Sources */,
+				DBDD76A01DEA6C56007715BA /* DriverCell.swift in Sources */,
+				DB75005D1DB663E500B1CF52 /* AppDelegate.swift in Sources */,
+				DB43B4911DED47810074BC98 /* SelectACustomerViewController.swift in Sources */,
+				DBDD76A81DEA7258007715BA /* CustomerViewController.swift in Sources */,
+				DBDD9DF51DE53B4600C3B398 /* RegisterViewController.swift in Sources */,
+				DBDD769D1DEA6C56007715BA /* ItemsViewController.swift in Sources */,
+				DB43B4931DEE22BB0074BC98 /* waitForCustomerToSelectViewController.swift in Sources */,
+				DB95A1CE1DEB4037000A5C42 /* CustomerMapViewController.swift in Sources */,
+				DBDD76A61DEA724D007715BA /* CustomerStore.swift in Sources */,
+				DBDD9DF31DE53B2A00C3B398 /* LoginViewController.swift in Sources */,
+				DBDD76A21DEA7232007715BA /* CustomerCell.swift in Sources */,
+				DB9F8F211DEB9E6E00533BAB /* WaitForDriverViewController.swift in Sources */,
+				DBDD769E1DEA6C56007715BA /* ItemStore.swift in Sources */,
+				DBDD9DEF1DE528DB00C3B398 /* HomeViewController.swift in Sources */,
+				DB95A1D01DEB4372000A5C42 /* CustomerLocationSearchTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB7500651DB663E500B1CF52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7500661DB663E500B1CF52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DB9F8F221DEBA26F00533BAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9F8F231DEBA26F00533BAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB7500691DB663E500B1CF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = UBeer;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB75006A1DB663E500B1CF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UBeer;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB75006C1DB663E500B1CF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Maps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nbrow100.cis444.syr.edu.UBeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB75006D1DB663E500B1CF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Maps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nbrow100.cis444.syr.edu.UBeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB7500541DB663E500B1CF52 /* Build configuration list for PBXProject "Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7500691DB663E500B1CF52 /* Debug */,
+				DB75006A1DB663E500B1CF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB75006B1DB663E500B1CF52 /* Build configuration list for PBXNativeTarget "'U'Beer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB75006C1DB663E500B1CF52 /* Debug */,
+				DB75006D1DB663E500B1CF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7500511DB663E500B1CF52 /* Project object */;
+}
